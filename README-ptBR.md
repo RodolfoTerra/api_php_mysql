@@ -58,7 +58,7 @@ $bd_senha= "pass";
 
 ##Consultar dados
 <pre>
-"SELECT <b>$campo FROM <b>$tbl $condi $order</b>";
+"SELECT <b>$campo</b> FROM <b>$tbl $condi $order</b>";
 </pre>
 <b>Aqui na condição ($condi) você pode completar relacionamentos INNER a consulta.</b>
 
