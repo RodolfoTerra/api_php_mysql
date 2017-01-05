@@ -37,8 +37,8 @@ $bd_senha= "pass";
 ##Patterns
 • <b>tbl</b> (Used in all calls, it should only contain the name of the main table for the request);<br>
 • <b>order</b> (Used only in queries, determines the desired order of return);<br>
-• <b>condition</b> (Your content changes depending on the type of request, so it is detailed in each step);<br>
-• <b>field</b> (The fields of the entities that you want to enter or return).
+• <b>condi</b> (Your content changes depending on the type of request, so it is detailed in each step);<br>
+• <b>campo</b> (The fields of the entities that you want to enter or return).
 
 
 ##Insert data
@@ -60,7 +60,7 @@ $bd_senha= "pass";
 <pre>
 "SELECT <b>$campo</b> FROM <b>$tbl $condi $order</b>";
 </pre>
-<b> Here in the condition ($ conditions) you can complete INNER queries.</b>
+<b> Here in the condition ($campo) you can complete INNER queries.</b>
 
 <b> Collaboration </b> <br>
 @ <a href="https://github.com/RodolfoTerra"> RodolfoTerra</a>
