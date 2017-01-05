@@ -35,10 +35,10 @@ $bd_senha= "pass";
 
 
 ##Patterns
-• <b>tbl</ b> (Used in all calls, it should only contain the name of the main table for the request);<br>
-• <b>order</ b> (Used only in queries, determines the desired order of return);<br>
-• <b>condition</ b> (Your content changes depending on the type of request, so it is detailed in each step);<br>
-• <b>field</ b> (The fields of the entities that you want to enter or return).
+• <b>tbl</b> (Used in all calls, it should only contain the name of the main table for the request);<br>
+• <b>order</b> (Used only in queries, determines the desired order of return);<br>
+• <b>condition</b> (Your content changes depending on the type of request, so it is detailed in each step);<br>
+• <b>field</b> (The fields of the entities that you want to enter or return).
 
 
 ##Insert data
