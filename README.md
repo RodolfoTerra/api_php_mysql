@@ -63,4 +63,4 @@ $bd_senha= "pass";
 <b> Here in the condition ($campo) you can complete INNER queries.</b>
 
 <b> Collaboration </b> <br>
-@ <a href="https://github.com/RodolfoTerra"> RodolfoTerra</a>
+@<a href="https://github.com/RodolfoTerra"> RodolfoTerra</a>
