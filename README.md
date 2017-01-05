@@ -19,7 +19,7 @@ Place the file on the www/ root of the server where the database is hosted.
 
 
 ##Permission for Servers.
-Domain authorized to access the bank <br>
+Domain authorized to access the data base<br>
 <pre>
 header('Access-Control-Allow-Origin: http://www.forum.zige.com.br');
 </pre>
@@ -60,7 +60,7 @@ $bd_senha= "pass";
 <pre>
 "SELECT <b>$campo</b> FROM <b>$tbl $condi $order</b>";
 </pre>
-<b> Here in the condition ($campo) you can complete INNER queries.</b>
+<b>Here in the condition ($campo) you can complete INNER queries.</b>
 
-<b> Collaboration </b> <br>
+<b>Collaboration</b><br>
 @<a href="https://github.com/RodolfoTerra"> RodolfoTerra</a>
