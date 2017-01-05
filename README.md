@@ -62,3 +62,5 @@ $bd_senha= "pass";
 </pre>
 <b>Aqui na condição ($condi) você pode completar relacionamentos INNER a consulta.</b>
 
+<b>Colaboração</b><br>
+@<a href="https://github.com/RodolfoTerra">RodolfoTerra</a>
