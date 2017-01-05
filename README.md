@@ -1,31 +1,31 @@
-#API PHP e MySQL
+#API PHP and MySQL
 
-API para Ler, Adicionar, Consultar e Deletar em banco de dados MySQL com PHP
+API to Read, Add, Query and Delete in MySQL database with PHP
 
-##Aplicação
-•	Conexão com PHP e MySQL;<br>
-•	Manipulação de dados simples e padronizada (Inserir, Atualizar, Deletar e Consultar);<br>
-•	Facilita a chamada por jQuery;<br>
-•	Atualmente as requisições estão por GET, mas basta alterar para POST caso queira;<br>
-•	Permite que a aplicação e o banco estejam em servidores diferentes com chamadas em jQuery.<br>
-
-
-##Instalação
-Coloque o arquivo na raiz www/ do servidor onde está hospedado o banco de dados.<br>
+##Application
+• Connection with PHP and MySQL;<br>
+• Simple and standardized data manipulation (Insert, Update, Delete and Query);<br>
+• Facilitates jQuery call;<br>
+• Currently the requests are by GET, but just change to POST if you want;<br>
+• Allows the application and the database to be on different servers with jQuery calls.
 
 
-##Arquivo
-•	mysql/index.php
+##Installation
+Place the file on the www/ root of the server where the database is hosted.
 
 
-##Permissão de servidores.
-Domínio autorizado a acessar o banco<br>
+##File
+• mysql/index.php
+
+
+##Permission for Servers.
+Domain authorized to access the bank <br>
 <pre>
 header('Access-Control-Allow-Origin: http://www.forum.zige.com.br');
 </pre>
 
 
-##Dados de conexão PHP e MySQL.
+##PHP and MySQL connection data.
 <pre>
 $servidor= "localhost";
 $bd_nome = "database";
@@ -34,33 +34,33 @@ $bd_senha= "pass";
 </pre>
 
 
-##Variaveis padrões
-•	<b>tbl</b> (Utilizada em todos as chamadas, deve conter apenas o nome da tabela principal para a requisição);<br>
-•	<b>order</b> (Utilizada apenas em consultas, determina a ordem desejada do retorno);<br>
-•	<b>condi</b> (Seu conteúdo muda conforme o tipo de requisição, por isso está detalhada em cada etapa);<br>
-•	<b>campo</b> (Os campos das entidades que deseja inserir ou obter de retorno).<br>
+##Patterns
+• <b>tbl</ b> (Used in all calls, it should only contain the name of the main table for the request);<br>
+• <b>order</ b> (Used only in queries, determines the desired order of return);<br>
+• <b>condition</ b> (Your content changes depending on the type of request, so it is detailed in each step);<br>
+• <b>field</ b> (The fields of the entities that you want to enter or return).
 
 
-##Inserir dados
+##Insert data
 <pre>
 "INSERT INTO <b>$tbl</b> (<b>$campo</b>) VALUES (<b>$condi</b>)";
 </pre>
 
-##Atulizar dados
+##Update data
 <pre>
 "UPDATE <b>$tbl</b> SET <b>$campo</b> <b>$condi</b>";
 </pre>
 
-##Deletar dados
+##Delete Data
 <pre>
 "DELETE FROM <b>$tbl</b> WHERE <b>$condi</b>";
 </pre>
 
-##Consultar dados
+##Querying data
 <pre>
-"SELECT <b>$campo FROM <b>$tbl $condi $order</b>";
+"SELECT <b>$campo</b> FROM <b>$tbl $condi $order</b>";
 </pre>
-<b>Aqui na condição ($condi) você pode completar relacionamentos INNER a consulta.</b>
+<b> Here in the condition ($ conditions) you can complete INNER queries.</b>
 
-<b>Colaboração</b><br>
-@<a href="https://github.com/RodolfoTerra">RodolfoTerra</a>
+<b> Collaboration </b> <br>
+@ <a href="https://github.com/RodolfoTerra"> RodolfoTerra</a>
